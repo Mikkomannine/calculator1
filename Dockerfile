@@ -1,5 +1,5 @@
 # Use Maven image to build the application
-FROM maven:latest
+FROM maven:3.9.5
 
 # Set working directory inside the container
 WORKDIR /app
